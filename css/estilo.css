@@ -1,0 +1,1127 @@
+/* START CARACTERISTICAS GENERALES DE TODOS LOS HTML */
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:wght@300&family=Roboto:wght@100;300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%;
+}
+
+.encabezado {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 30px;
+	height: 10vh;
+	background-color: rgba(242,242,242, 1.0);
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.encabezado a img {
+	height: 9rem;
+	width: 20rem;
+}
+
+
+.encabezado ul {
+	display: flex;
+}
+
+.encabezado ul li {
+	list-style: none;
+	margin-right: 2rem;
+}
+
+.encabezado ul li a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.6rem;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 1.0);
+}
+
+.encabezado ul li a:hover {
+	color: rgba(255, 209, 15, 1);
+	text-decoration: underline;
+}
+
+/* END CARACTERISTICAS GENERALES DE TODOS LOS HTML */
+
+
+/* START INDEX.HTML CSS */
+
+/* START MAIN__IMG*/
+.main__img {
+	background-image: url(../img/main-index.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+}
+
+.main__img h1 {
+	font-size: 5.5rem;
+	color: rgba(255, 209, 15, 1);
+	font-weight: bold;
+	position: relative;
+	top: 200px;
+	margin-left: 8rem;
+}
+
+.main__img p {
+	font-size: 3rem;
+	color: rgba(242,242,242, 1.0);
+	position: relative;
+	top: 20rem;
+	margin-left: 8rem;
+
+}
+
+.main__img a button {
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
+	color: rgba(242,242,242, 1.0);
+	background-color: rgba(255, 209, 15, 1);
+	padding: 0.82rem;
+	width: 24rem;
+	border: none;
+	border-radius: 3rem;
+	position: relative;
+	top: 25rem;
+	margin-left: 8rem;
+}
+
+.main__img a button:hover {
+	background-color: rgba(255, 209, 15, 0.9);
+}
+
+/* END MAIN__IMG*/
+
+
+
+/* START POR QUE ELEGIRNOS*/
+.titulo--m {
+	font-family: 'Roboto', sans-serif;
+	font-size: 4rem;
+	text-align: center;
+	color: rgba(255, 209, 15, 1);
+	padding: 4rem;
+	background-color: rgba(242,242,242, 1.0);
+}
+
+
+
+.flex-conteiner-section1 {
+	background-color: rgba(242,242,242, 1.0);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/* START EQUIPO EXPERTO*/
+.section1__equipo-experto {
+	font-family: 'Roboto', sans-serif;
+	margin: 1.5rem;
+	padding: 3rem;
+	height: auto;
+	width: 30rem;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.section1__equipo-experto:hover {
+	background-color: rgba(255, 209, 15, 1);
+	transition: 1.2s;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.section1__equipo-experto img {
+	height: 10rem;
+	display: block;
+	margin: 0 auto;
+}
+
+
+.section1__equipo-experto h3 {
+	color: rgba(0, 0, 0, 1.0);
+	font-size: 3rem;
+	font-weight: bold;
+	text-align: center;
+} 
+
+.section1__equipo-experto p {
+	color: rgba(0, 0, 0, 1.0);
+	font-size: 1.5rem;
+	margin: 2.5rem;
+} 
+
+/* END EQUIPO EXPERTO*/
+
+/* START SERIEDAD*/
+.section1__seriedad {
+	font-family: 'Roboto', sans-serif;
+	margin: 1.5rem;
+	padding: 3rem;
+	height: auto;
+	width: 30rem;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.section1__seriedad:hover {
+	background-color: rgba(255, 209, 15, 1);
+	transition: 1.2s;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.section1__seriedad img {
+	height: 10rem;
+	display: block;
+	margin: 0 auto;
+}
+
+
+.section1__seriedad h3 {
+	color: rgba(0, 0, 0, 1.0);
+	font-size: 3rem;
+	font-weight: bold;
+	text-align: center;
+} 
+
+.section1__seriedad p {
+	color: rgba(0, 0, 0, 1.0);
+	font-size: 1.5rem;
+	margin: 2.5rem;
+} 
+/* END SERIEDAD*/
+
+
+/* START BAJOS COSTOS*/
+.section1__bajos-costos {
+	font-family: 'Roboto', sans-serif;
+	margin: 1.5rem;
+	padding: 3rem;
+	height: auto;
+	width: 30rem;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.section1__bajos-costos:hover {
+	background-color: rgba(255, 209, 15, 1);
+	transition: 1.2s;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.section1__bajos-costos img {
+	height: 10rem;
+	display: block;
+	margin: 0 auto;
+}
+
+
+.section1__bajos-costos h3 {
+	color: rgba(0, 0, 0, 1.0);
+	font-size: 3rem;
+	font-weight: bold;
+	text-align: center;
+} 
+
+.section1__bajos-costos p {
+	color: rgba(0, 0, 0, 1.0);
+	font-size: 1.5rem;
+	margin: 2.5rem;
+} 
+
+/* END BAJOS COSTOS*/
+
+/* END POR QUE ELEGIRNOS*/
+
+
+/* START SECTION 2*/
+.section2 {
+	background-color: rgba(242,242,242, 1.0);
+	height: 65vh;
+	width: auto;
+	padding: 1rem;
+}
+
+.flex-conteiner-section2 {
+	font-family: 'Roboto', sans-serif;
+	height: 60vh;
+	width: auto;
+	display: flex;
+	padding: 1rem;
+	align-items: center;
+	justify-content: center;
+	margin: 5rem;
+
+}
+
+
+.section2-img img{
+	height: 30rem;
+	width: 30rem;
+	margin: 3.5rem;
+}
+
+.section2-texto  {
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(2,0,36,1) 0%, rgba(219,243,65,1) 20%);
+	border-radius: 50%;
+	padding: 40px;
+	margin: 3.5rem;
+
+}
+
+.section2__title-m {
+	text-align: center;
+
+}
+
+.section2__title-m a {
+	text-decoration: none;
+
+}
+
+
+.section2__title-m a h2 {
+	display: inline;
+	font-size: 4rem;
+	color:  rgba(0, 0, 0, 1.0);
+
+}
+
+.section2__title-m a h2:hover {
+	color: rgba(0, 0, 0, 0.8);
+	text-decoration: underline;
+
+}
+
+.section2-texto h3 {
+	color:  rgba(0, 0, 0, 1.0);
+	font-size: 3rem;
+	text-align: center;
+	padding: 1rem;
+
+}
+
+.section2-texto p {
+	color:  rgba(0, 0, 0, 1.0);
+	font-size: 1.5rem;
+
+}
+
+.section2-btn {
+	text-align: center;
+	margin: 3rem;
+}
+
+.section2-btn a button {
+	color:  rgba(242,242,242, 1.0);
+	font-size: 1.5rem;
+	background-color: rgba(0, 0, 0, 1.0);
+	border-radius: 3rem;
+	padding: 1rem;
+	border: none;
+}
+
+.section2-btn a button:hover {
+	color:  rgba(242,242,242, 0.7);
+}
+
+/* END SECTION 2*/
+
+/* START SECTION 3*/
+.section3 {
+	background-color:rgba(242,242,242, 1.0);
+	height: 40vh;
+	padding: 3rem;
+
+}
+
+.flex-conteiner-section3 {
+	height: 40vh;
+	background-color: rgba(242,242,242, 1.0);
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: center;
+	padding: 2.5rem;
+	
+}
+
+.flex-conteiner2-section3 {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	margin: 4rem;
+	padding: 2rem;
+	border: 2px solid rgba(255, 209, 15, 1);
+}
+
+
+.section3-titles{
+	padding: 2rem;
+
+}
+
+.section3-titles h2{
+	font-size: 3.6rem;
+}
+
+.section3-titles h3{
+	font-size: 2.2rem;
+}
+
+
+.section3-text p{
+	font-size: 1.5rem;
+	padding: 2rem;
+}
+
+
+
+.section3-img {
+	margin: 4rem;
+
+}
+/* END SECTION 3*/
+
+/* END INDEX.HTML CSS */
+
+
+/* START FOOTER DE TODOS LOS HTML */
+
+.footer--1 {
+	height: auto;
+	background-color: rgba(242,242,242, 1.0);
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-conteiner1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.footer--1 img {
+	height: 3rem;
+}
+
+.footer--1 img:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 50%;
+}
+
+
+.footer-conteiner2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.footer--1 a {
+	color: rgba(0, 0, 0, 1.0);
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	margin: 5px;
+	text-decoration: none;
+}
+
+.footer--1 a:hover {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+/* END FOOTER DE TODOS LOS HTML */
+
+
+
+
+/* START NOSOTROS.HTML CSS */
+
+
+/* START NOSOTROS */
+
+.nosotros--sec {
+	background-image: url(../img/nosotros1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+}
+
+.nosotros--sec h3 {
+	font-size: 5.5rem;
+	color: rgba(255, 209, 15, 1);
+}
+
+.nosotros--sec p {
+	font-size: 3rem;
+	margin: 2.5rem;
+	color: rgba(242, 242, 242, 1.0);
+
+}
+/* END NOSOTROS */
+
+
+/* START MISION-VISION-VALORES  */
+.mis-vis-val {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	background-color: rgba(242, 242, 242, 1.0);
+	padding-top: 4rem;
+}
+
+/*START MISION*/
+.mision {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 33%;
+	background-color: rgba(200, 198, 201, 0.3);
+	border: 3px solid rgba(255, 209, 15, 1);
+	margin: 3rem;
+	padding: 2rem;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.mision img {
+	height: 10rem;
+	width: 10rem;
+	padding-top: 1.5rem;
+}
+
+.mision h4 {
+	font-size: 3rem;
+	padding-top: 1.5rem;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+.mision p {
+	font-size: 1.5rem;
+	padding-top: 1.5rem;
+	line-height: 2rem;
+}
+/*END MISION*/
+
+/*START VISION*/
+.vision {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+	width: 33%;
+	background-color: rgba(200, 198, 201, .3);
+	border: 3px solid rgba(255, 209, 15, 1);
+	margin: 3rem;
+	padding: 3rem;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.vision img {
+	height: 10rem;
+	width: 10rem;
+	padding-top: 1.5rem;
+}
+
+.vision h4 {
+	font-size: 3rem;
+	padding-top: 1.5rem;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+.vision p {
+	font-size: 1.5rem;
+	padding-top: 1.5rem;
+	line-height: 2rem;
+}
+/*END VISION*/
+
+
+/*START VALORES*/
+.valores {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 33%;
+	background-color: rgba(200, 198, 201, 0.3);
+	border: 3px solid rgba(255, 209, 15, 1);
+	margin: 3rem;
+	padding: 3rem;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.valores img {
+	height: 10rem;
+	width: 10rem;
+	padding-top: 1.5rem;
+}
+
+.valores h4 {
+	font-size: 3rem;
+	padding-top: 1.5rem;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+.valores p {
+	font-size: 1.5rem;
+	padding-top: 1.5rem;
+	line-height: 2rem;
+}
+/*END VALORES*/
+
+/* END MISION-VISION-VALORES */
+
+
+/* START NUESTRA HISTORIA */
+
+.nuestra-historia {
+	background-color: rgba(242, 242, 242, 1.0);
+	padding-top: 8rem;
+}
+
+.nuestra-historia h3 {
+	font-size: 4rem;
+	padding: 2rem;
+	text-align: center;
+}
+
+.nuestra-historia p {
+	font-size: 1.5rem;
+	padding-left: 2rem;
+	padding-bottom: 2.5rem;
+}
+
+/* END NUESTRA HISTORIA  */
+
+/* END NOSOTROS.HTML CSS */
+
+
+
+/* START SERVICIOS.HTML CSS */
+
+.main-servicios {
+	background-color: rgba(242, 242, 242, 1.0);
+}
+
+
+/* START SECTION SERVICIOS */
+
+/* START SERVICIOS TEXT */
+.servicios-text {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.servicios-text h3 {
+	font-size: 4rem;
+	padding: 1rem;
+	color: rgba(255, 209, 15, 1);
+}
+
+.servicios-text p {
+	font-size: 1.5rem;
+	line-height: 2rem;
+	padding-top: 2rem;
+	margin: 2rem;
+}
+/* END SERVICIOS TEXT */
+
+/* START SERVICIOS IMG */
+.servicios-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+/* START NAVES IMG */
+.servicios-naves {
+	display: flex;
+	flex-direction: column;
+	height: 40vh;
+	width: 33%;
+
+}
+
+.servicios-naves h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+	text-align: center;
+	background-color: rgba(255, 209, 15, 1);
+}
+
+.servicios-naves img {
+	height: 30rem;
+}
+/* END NAVES IMG */
+
+/* START GALPONES IMG */
+.servicios-galpones {
+	display: flex;
+	flex-direction: column;
+	height: 40vh;
+	width: 33%;
+}
+
+.servicios-galpones h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+	text-align: center;
+	background-color: rgba(255, 209, 15, 1);
+}
+
+.servicios-galpones img {
+	height: 30rem;
+}
+/* END GALPONES IMG */
+
+/* START TINGLADOS IMG */
+
+.servicios-tinglados {
+	display: flex;
+	flex-direction: column;
+	height: 40vh;
+	width: 33%;
+}
+
+.servicios-tinglados h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+	text-align: center;
+	background-color: rgba(255, 209, 15, 1);
+}
+
+.servicios-tinglados img {
+	height: 30rem;
+
+}
+/* END TINGLADOS IMG */
+
+/* END SERVICIOS IMG */
+
+
+/* START BTN SERVICIOS IMG */
+.servicios-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 209, 15, 1);
+	height: 8vh;
+}
+
+.servicios-btn p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+	margin-left: 50px;
+	color: rgba(0, 0, 0, 1.0);
+}
+
+.servicios-btn a button {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	background-color: rgba(0, 0, 0, 1.0);
+	color: rgba(242, 242, 242, 1.0);
+	margin-left: 50px;
+	border: none;
+	padding: 10px;
+}
+
+.servicios-btn a button:hover  {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* END BTN SERVICIOS IMG */
+/* END SECTION SERVICIOS */
+
+
+/* START SECTION PARA QUIENES TRABAJAMOS */
+
+.para-quienes-trabajamos {
+	font-family: 'Roboto', sans-serif;
+}
+
+.para-quienes-trabajamos h3 {
+	font-size: 3rem;
+	text-align: center;
+	margin-top: 4rem;
+}
+
+
+.para-quienes-trabajamos-conteiner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.clientes-particulares, .gmp-empresas, .municipios {
+	display: flex;
+	flex-direction: column;
+	margin: 8rem;
+}
+
+.clientes-particulares h5 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+.clientes-particulares img {
+	height: 10rem;
+	width: 10rem;
+	margin: 0 auto;
+}
+
+.gmp-empresas h5 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+.gmp-empresas img {
+	height: 10rem;
+	width: 10rem;
+	margin: 0 auto;
+}
+
+.municipios h5 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+.municipios img {
+	height: 10rem;
+	width: 10rem;
+	margin: 0 auto;
+}
+
+/* END SECTION PARA QUIENES TRABAJAMOS */
+
+
+/* START EQUIPO SERIEDAD COSTOS */
+.equipo-seriedad-costos-conteiner {
+	display: flex;
+	margin: 4rem;
+	background-color: rgba(255, 209, 15, 1);
+}
+
+.equipo-seriedad-costos-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2rem;
+	
+}
+
+.equipo-seriedad-costos-text h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.5rem;
+}
+
+.equipo-seriedad-costos-text p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	margin-top: 2rem;
+
+}
+/* END EQUIPO SERIEDAD COSTOS */
+
+
+/* START CALIDAD Y EXPERIENCIA*/
+.calidad-experiencia h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 3rem;
+	text-align: center;
+
+}
+
+.calidad-experiencia-conteiner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* START OBRAS REALIZADAS*/
+.obras-realizadas {
+	display: flex;
+	flex-direction: column;	
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+	margin-right: 10rem;
+	margin-left: 10rem;
+	margin-bottom: 5rem;
+}
+
+.obras-realizadas p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+
+}
+
+.obras-realizadas img {
+	height: 10rem;
+	width: 10rem;
+}
+
+/* END OBRAS REALIZADAS*/
+
+/* START CLIENTES SATISFECHOS*/
+.clientes-satisfechos {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+	margin-right: 10rem;
+	margin-left: 10rem;
+	margin-bottom: 5rem;
+}
+
+.clientes-satisfechos p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+
+}
+
+.clientes-satisfechos img {
+	height: 10rem;
+	width: 10rem;
+}
+
+/* END CLIENTES SATISFECHOS*/
+
+
+/* START EXPERIENCIA*/
+.años-experiencia {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+	margin-right: 10rem;
+	margin-left: 10rem;
+	margin-bottom: 5rem;
+}
+
+.años-experiencia p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+}
+
+.años-experiencia img {
+	height: 10rem;
+	width: 10rem;
+}
+/* END EXPERIENCIA*/
+
+/* END CALIDAD Y EXPERIENCIA*/
+
+/* END SERVICIOS.HTML CSS*/
+
+
+/* START OBRAS.HTML CSS */
+
+
+.main-obras{
+	background-color: rgba(242, 242, 242, 1.0);
+	font-family: 'Roboto', sans-serif;
+}
+
+.main-obras-text {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.main-obras-text h3 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+
+.main-obras-text p {
+	font-size: 1.5rem;
+	display: inline-block;
+	margin-top: 2rem;
+	margin-right: 1rem;
+	padding: 1rem;
+
+}
+
+.main-obras-text p a {
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: rgba(255, 209, 15, 1);
+}
+
+.main-obras p a:hover {
+	color: rgba(255, 209, 15, 0.5);
+}
+
+.obras-conteiner {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.img-obras {
+	height: 30rem;
+	width: 30rem;
+	margin: 2rem;
+}
+
+.obras-conteiner figure figcaption {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	text-align: center;
+
+}
+
+
+.obras-conteiner figure p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+/* END OBRAS.HTML CSS */
+
+
+/* START CONTACTO.HTML CSS */
+
+
+.main-contacto {
+	background-color: rgba(242, 242, 242, 1.0);
+}
+
+.conteiner-contacto {
+	display: flex;
+}
+
+.contacto-text {
+	background-image: url(../img/contacto.png);
+	height: 50vh;
+}
+
+.contacto-text h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 3rem;
+	text-align: center;
+	padding-top: 10rem;
+}
+
+.contacto-text p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	text-align: center;
+	margin-top: 2rem;
+
+}
+
+.formulario-contacto {
+	font-family: 'Roboto', sans-serif;
+	font-size: 5rem;
+	display: flex;
+	flex-direction: column;
+	margin: 3rem;
+	width: 50rem;
+
+}
+
+
+.formulario-nombre {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+
+
+.formulario-apellido {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+
+
+.formulario-email {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+
+.formulario-telefono {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+
+.formulario-zona {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+
+.formulario-comentario {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+
+.formulario-enviar {
+	padding: 1rem;
+}
+
+
+.section2-contacto {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+}
+
+.section2-contacto p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	padding: 2rem;
+}
+
+.section2-contacto a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	padding: 2rem;
+}
+
+
+.section2-contacto a img {
+	width: 2rem;
+	height: 2rem;
+}
+
+.iframe-map {
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+	padding: 2rem;
+}
+
+/* EN CONTACTO.HTML CSS */

@@ -1,0 +1,63 @@
+
+
+.main__img a button:hover {
+	background-color: rgba(255, 209, 15, 0.8);
+}
+
+
+.section1__equipo-experto:hover {
+	background-color: rgba(255, 209, 15, 1);
+	transition: 1.2s;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.section1__seriedad:hover {
+	background-color: rgba(255, 209, 15, 1);
+	transition: 1.2s;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+.section2__title-m a h2:hover {
+	color: rgba(0, 0, 0, 0.8);
+	text-decoration: underline;
+
+}
+
+
+
+.section2-btn a button:hover {
+	color:  rgba(242,242,242, 0.7);
+}
+
+
+
+.footer--1 img:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 50%;
+}
+
+
+.footer--1 a:hover {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.servicios-btn a button:hover  {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.section2-texto  {
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(2,0,36,1) 0%, rgba(219,243,65,1) 20%);
+
+}
+
